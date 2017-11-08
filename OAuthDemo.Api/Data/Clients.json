@@ -1,1 +1,10 @@
-    "Id": "scv_front_end",
+﻿[
+  {
+    "Id": "test",
+    "Secret": "9B29A0D2-2027-4414-AE39-AD555821A402",
+    "Name": "test",
+    "Active": 1,
+    "RefreshTokenLifeTime": 7,
+    "AllowedOrigin": "*"
+  }
+]

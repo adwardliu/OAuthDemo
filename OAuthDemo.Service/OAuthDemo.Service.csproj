@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OAuthDemo.Core\OAuthDemo.Core.csproj" />
+    <ProjectReference Include="..\OAuthDemo.Domain\OAuthDemo.Domain.csproj" />
+    <ProjectReference Include="..\OAuthDemo.Repository\OAuthDemo.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

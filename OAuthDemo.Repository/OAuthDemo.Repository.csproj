@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>OAuthDemo.Repository</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OAuthDemo.Core\OAuthDemo.Core.csproj" />
+    <ProjectReference Include="..\OAuthDemo.Domain\OAuthDemo.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
